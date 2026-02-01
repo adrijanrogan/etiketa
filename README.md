@@ -1,18 +1,16 @@
 # etiketa
 
+Etiketa will soon be a modern Kotlin Multiplatform application.
+
+***
+
+# etiketa (old content)
+
 Etiketa je Android aplikacija, ki omogoča spreminjanje metapodatkov MP3 in FLAC glasbenih datotek.
 * Podpora za ID3v1, ID3v2 (MP3) in VorbisComment (FLAC)
 * Spreminjanje naslova, albuma, izvajalca in leta izdaje
 * Brskanje po celotnem uporabniškem datotečnem sistemu
 * Dark/Night tema
-
-## Načrtovane spremembe in izboljšave
-
-* Uporaba storage access framework (uporaba File v prihodnje ne bo več možna)
-* Možnost spremembe slike (artwork)
-* 'Single Activity' design
-* Deljenje informacij preko ViewModel (npr. izbrana datoteka)
-
 
 ## Uporabniški vmesnik
 <table><tr>
