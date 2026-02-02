@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="taglib-api">
+    <output-path>$PROJECT_DIR$/taglib-api/build/libs</output-path>
+    <root id="archive" name="taglib-api.jar">
+      <element id="module-output" name="etiketa.taglib-api.androidMain" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="taglib-api-jvm">
+    <output-path>$PROJECT_DIR$/taglib-api/build/libs</output-path>
+    <root id="archive" name="taglib-api-jvm.jar">
+      <element id="module-output" name="etiketa.taglib-api.jvmMain" />
+    </root>
+  </artifact>
+</component>

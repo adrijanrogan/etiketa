@@ -1,0 +1,55 @@
+[versions]
+# Plugins
+kotlin = "2.2.20"
+gradlePluginAndroid = "8.10.1"
+gradlePluginHilt = "2.58"
+gradlePluginKsp = "2.3.5"
+
+# Libraries
+androidxActivity = "1.12.3"
+androidxCore = "1.17.0"
+androidxEspresso = "3.7.0"
+androidxHilt = "1.3.0"
+androidxJunit = "1.3.0"
+androidxLifecycle = "2.10.0"
+androidxStartup = "1.2.0"
+composeBom = "2026.01.01"
+composeUnstyled = "1.49.6"
+junit = "4.13.2"
+kotlinxSerialization = "1.10.0"
+appcompat = "1.7.1"
+
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidxActivity" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidxEspresso" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidxHilt" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidxLifecycle" }
+androidx-startup = { module = "androidx.startup:startup-runtime", version.ref = "androidxStartup" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-foundation = { module = "androidx.compose.foundation:foundation" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+composeunstyled-primitives = { module = "com.composables:composeunstyled-primitives", version.ref = "composeUnstyled" }
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "gradlePluginHilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "gradlePluginHilt" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "gradlePluginAndroid" }
+android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "gradlePluginAndroid" }
+android-library = { id = "com.android.library", version.ref = "gradlePluginAndroid" }
+android-lint = { id = "com.android.lint", version.ref = "gradlePluginAndroid" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "gradlePluginHilt" }
+kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "gradlePluginKsp" }

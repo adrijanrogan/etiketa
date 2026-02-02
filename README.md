@@ -2,6 +2,8 @@
 
 Etiketa will soon be a modern Kotlin Multiplatform application.
 
+Icon attribution: <a href="https://www.flaticon.com/free-icons/tag" title="tag icons">Tag icons created by Vector Clans - Flaticon</a>
+
 ***
 
 # etiketa (old content)
@@ -24,5 +26,3 @@ Etiketa je Android aplikacija, ki omogoča spreminjanje metapodatkov MP3 in FLAC
 ## O projektu
 
 Projekt je nastal v okviru projektne naloge pri informatiki na splošni maturi z naslovom "Uporaba JNI v razvoju Android aplikacije". Končna verzija je bila napisana v Javi, projekt pa se je od takrat prepisal v Kotlinu in se še vedno razvija.
-
-Dostop do metapodatkov poteka preko knjižnice [TagLib](https://taglib.org/), okoli katere je napisan JNI wrapper ([1](https://github.com/adrijanrogan/etiketa/tree/master/app/src/main/java/com/github/adrijanrogan/etiketa/jni) in [2](https://github.com/adrijanrogan/etiketa/tree/master/app/src/main/cpp/taglib/jni)).
